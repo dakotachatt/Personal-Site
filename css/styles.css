@@ -1,0 +1,142 @@
+/* Tag Selector CSS Rules ----------------------------------- */
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+    font-family: 'Truculenta', sans-serif;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Truculenta', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: 'Truculenta', sans-serif;
+    color: #11999E;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  color: #11999E
+}
+
+hr {
+  border: none;
+  border-top: 7px dotted #EAF6F6;
+  width: 3.125rem;
+}
+
+/* Class Selector CSS Rules ----------------------------------- */
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.main-header {
+  margin: 3.125rem auto 0 auto;
+  font-size: 5.625rem;
+}
+
+.main-subtitle {
+  font-weight: normal;
+  color: #66BFBF;
+  font-size: 2.5rem;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.profile {
+  width: 33%;
+  padding: 5rem;
+  margin: auto;
+  line-height: 2;
+}
+
+.profile-img {
+  width: 40%;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 6.25rem auto;
+  text-align: left;
+  width: 50%
+}
+
+.skill-img-eng, .skill-img-perf {
+  margin-right: 1.875rem;
+  float: left;
+  width: 25%;
+}
+
+.skill-img-code {
+  margin-left: 1.875rem;
+  float: right;
+  width: 25%;
+}
+
+.contact-me {
+  line-height: 2;
+}
+
+.btn {
+	background-color:#66BFBF;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size:19px;
+	padding:10px 15px;
+  margin: 1.5rem 0;
+	text-decoration:none;
+}
+.btn:hover {
+	background-color:#11999E;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin: 3rem 0 0 0;
+  padding: 2rem;
+}
+
+.footer-link {
+  margin: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.bottom-container p {
+  color: #EAF6F6;
+  margin-top: 2rem;
+  font-size: 0.75rem;
+}
+
+
+
+/* ID Selector CSS Rules ----------------------------------- */
